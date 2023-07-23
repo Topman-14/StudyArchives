@@ -1,6 +1,11 @@
+import Navbar from "../../components/Navbar";
+
 const Maintainers = () => {
     return ( 
-        <h1>This is the maintainers page</h1>
+        <>
+            <Navbar />
+            <h1>This is the maintainers page</h1>
+        </>
      );
 }
  

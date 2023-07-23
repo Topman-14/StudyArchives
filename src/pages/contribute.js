@@ -1,6 +1,11 @@
+import Navbar from "../../components/Navbar";
+
 const Contribute = () => {
     return ( 
-        <h1>This is the Contribute page</h1>
+        <>
+            <Navbar/>
+            <h1>This is the Contribute page</h1>
+        </>
      );
 }
  

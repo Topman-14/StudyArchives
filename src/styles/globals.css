@@ -4,12 +4,13 @@
 
 :root{
   background: rgb(2, 8, 14);
+  color: white;
 }
 
 #hero_section{
   height: 90vh;
   color: white;
-  background: linear-gradient(0deg, #0c0c10ef, rgba(1, 11, 26, 0.87)), url('/hero_bg.jpg');
+  background: linear-gradient(0deg, #0c0c10ef, rgba(1, 11, 26, 0.747)), url('/hero_bg.jpg');
   background-size: cover;
 }
 #more_info{
@@ -20,7 +21,7 @@
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.411);
 }
 .fade-up{
-  animation: fade-up 1s ease-out;
+  animation: fade-up 0.7s ease-out;
 }
 .fade{
   animation: fade 1.5s ease-out;

@@ -1,6 +1,6 @@
 import Navbar from "../../components/Navbar";
 import React from "react";
-
+import LargeBtn from '../../components/LargeBtn'
 
 const Contribute = () => {
     return ( 
@@ -10,15 +10,9 @@ const Contribute = () => {
                 <div className="heading falling-element">
                     <h1>Would You like to contribute to the drive?</h1>
                 </div>
-                <div className="contribute">
-                    <button className="btn falling-element">
-                        <p>Gmail</p>
-                        <a href="mailto:ojoore35@gmail.com" className="link" target="_blank">Ojoore35@gmail.com</a>
-                    </button>
-                    <button className="btn falling-element">
-                        <p>Whatsapp</p>
-                        <a href="https://wa.me/+2348081405577" className="link" target="_blank">08081405577</a>
-                    </button>
+                <div className="contribute falling-element">
+                    <LargeBtn href="mailto:ojoore35@gmail.com" text="Gmail"/>
+                    <LargeBtn href="https://wa.me/+2348081405577" text="WhatsApp" className="btn falling-element"/>
                 </div>
             </div>
         </div>

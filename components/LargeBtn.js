@@ -7,7 +7,7 @@ export default function LargeBtn(props) {
 
   return (
     <Link href={props.href} className={styles.btn}>
-        <button style={{paddingRight: 8}}>{props.text}</button>
+        <button className='pr-1'>{props.text}</button>
         <ArrowForwardIcon />
     </Link>
   )

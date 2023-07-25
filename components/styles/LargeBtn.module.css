@@ -4,7 +4,6 @@
     border-radius: 0.8rem;
     font-weight: 800;
     padding:  1rem 1.5rem;
-    animation: fade 1s ease-out;
     transition: 0.2s;
     border: 1px solid white;
 }
@@ -12,15 +11,3 @@
     background: #123;
     color: white;
 }
-
-@keyframes fade {
-    0%{
-      opacity: 0;
-    }
-    30%{
-        opacity: 0;
-      }
-    100%{
-      opacity:1;
-    }
-  }

@@ -1,4 +1,5 @@
 import '@/styles/globals.css'
+import '@/pages/contribute.css'
 import { Comfortaa } from 'next/font/google'
 const comfortaa = Comfortaa({ subsets: ['latin'] })
 

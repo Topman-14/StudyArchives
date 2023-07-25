@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-:root{
+/* :root{
   background: rgb(2, 8, 14);
-}
+} */
 
 #hero_section{
   height: 90vh;

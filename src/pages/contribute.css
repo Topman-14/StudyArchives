@@ -1,0 +1,72 @@
+.main{
+    background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    height: 100vh;
+}
+.body{
+    color: white;
+  }
+  .heading{
+     margin-top: 10rem;
+  }
+  .heading h1{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  .contribute{
+    display: flex;
+    justify-content: space-between;
+    width: 48%;
+    margin: 8rem auto;
+  }
+  .btn{
+    background-image: linear-gradient( 109.6deg, rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1% );
+    padding: 0.6rem;
+    color: #fff;
+    border-radius: 10px;
+  }
+  .link{
+    display: inline-block;
+    position: relative;
+    transition: 1.5s;
+  }
+  .link::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #123;
+    transform-origin: bottom center;
+    transition: transform 0.25s ease-in-out;
+  }
+  .link:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom center;
+  }
+  .link:hover{
+     color: #123;
+  }
+  @keyframes fallInPlace {
+    0% {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .falling-element {
+    animation: fallInPlace 2s ease-out;
+    position: relative; 
+    opacity: 1; 
+  }
+  
+  
+  
+  
+  

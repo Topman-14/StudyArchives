@@ -3,8 +3,12 @@
 @tailwind utilities;
 
  :root{
-  background: rgb(2, 8, 14);
+  background-color: #02080e;
+  background-color: #02080e;
+  background: radial-gradient(circle, transparent 20%, #02080e 20%, #02080e 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #02080e 20%, #02080e 80%, transparent 80%, transparent) 20px 20px, linear-gradient(#15181c 1.6px, transparent 1.6px) 0 -0.8px, linear-gradient(90deg, #15181c 1.6px, #02080e 1.6px) -0.8px 0;
+  background-size: 40px 40px, 40px 40px, 20px 20px, 20px 20px;
   color: white;
+  height: 100%;
 }
 
 #hero_section{

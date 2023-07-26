@@ -7,7 +7,7 @@ export default function LargeBtn(props) {
 
   return (
     <Link href={props.href} className={styles.btn}>
-        <button className='pr-1'>{props.text}</button>
+        <button className='sm:pr-1'>{props.text}</button>
         <ArrowForwardIcon />
     </Link>
   )

@@ -22,14 +22,14 @@ export default function Home() {
     <main className="">
       <div id='hero_section'>
         <Navbar />
-        <div className='px-10  pt-20'> 
-          <p className='max-w-xl mx-auto text-center text-4xl leading-snug fade-up'>{heroText}</p>
-          <p className='text-sm text-center fade pb-4 mt-14'>Choose a faculty</p>
+        <div className='px-10 sm:pt-20 pt-32  flex flex-col gap-4 h-3/4'> 
+          <p className='max-w-xl mx-auto text-center sm:text-4xl text-2xl leading-snug fade-up'>{heroText}</p>
+          <p className='text-sm text-center fade pb-4 sm:mt-14 mt-5'>Choose a faculty</p>
           <div id="heroBtns" className='fade flex justify-center gap-7 '>
           <LargeBtn href="https://drive.google.com/drive/folders/1CnuD0Of_iiJRiyP5vM798kKhCM3yuNpm" text="FBMAS" />
           <LargeBtn href="https://drive.google.com/drive/folders/1CnuD0Of_iiJRiyP5vM798kKhCM3yuNpm" text="FAMSS" />
           </div>
-        <button className='float-right pt-3' onClick={scrollDown} >Learn More <KeyboardDoubleArrowDownIcon className='animate-bounce'/></button>
+          <button className='mt-auto pt-4 lg:self-end ' onClick={scrollDown} >Learn More <KeyboardDoubleArrowDownIcon className='animate-bounce'/></button>
         </div>
       </div>
       <div id='more_info' ref={moreInfo}></div>

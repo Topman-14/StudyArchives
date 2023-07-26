@@ -1,0 +1,50 @@
+.wrapper{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.63);
+    backdrop-filter: blur(5px);
+    z-index: 99;
+    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    animation: fade 0.4s;
+}
+.wrapper > ul{
+    height: 270px;
+}
+.backBtn{
+    position: absolute;
+    top: 56px;
+    right: 56px;
+    padding: 6px;
+    border-radius: 6px;
+    background: rgba(19, 19, 19, 0.568);
+    font-size: 2.5em;
+    transition: 0.3s;
+}
+.backBtn:hover{
+    color: rgb(0, 255, 255);
+}
+
+@keyframes fade {
+    0%{
+      opacity: 0.2;
+    }
+    100%{
+      opacity:1;
+    }
+  }
+  @keyframes fade-reverse {
+    0%{
+      opacity: 1;
+    }
+    100%{
+      opacity:0;
+    }
+  }

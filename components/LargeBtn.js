@@ -6,7 +6,7 @@ import styles from './styles/LargeBtn.module.css'
 export default function LargeBtn(props) {
 
   return (
-    <Link href={props.href} className={styles.btn}>
+    <Link href={props.href} className={styles.btn} target="_blank">
         <button className='sm:pr-1'>{props.text}</button>
         <ArrowForwardIcon />
     </Link>

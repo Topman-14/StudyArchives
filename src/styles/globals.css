@@ -24,6 +24,23 @@
   margin-top: -30px;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.411);
 }
+.more-info-section{
+  min-width: 350px;
+  max-width: 400px;
+  min-height: 30px;
+}
+.gen-link{
+  color: cyan;
+  transition: 0.3s;
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 2px;
+  
+}
+.gen-link:hover{
+  text-decoration-color: cyan;
+}
 .fade-up{
   animation: fade-up 0.7s ease-out;
 }

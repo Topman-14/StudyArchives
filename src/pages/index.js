@@ -31,8 +31,8 @@ export default function Home() {
     observer.observe(domRef.current);
     observer2.observe(domRef2.current);
     return () => {
-      observer.unobserve(domRef.current)
-      observer2.unobserve(domRef2.current)
+      observer.disconnect()
+      observer2.disconnect()
     };
   }, []);
 

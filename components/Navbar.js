@@ -10,7 +10,6 @@ import MobileMenu from './MobileMenu';
 export default function Navbar() {
   const router = useRouter();
 
-  console.log(router.pathname)
   const isLinkActive = (href) => {
     return router.pathname === href;
   };
@@ -22,7 +21,6 @@ export default function Navbar() {
   }
   function openMenu() {
     setMenuIsClicked(true)
-    console.log(menuIsClicked)
   }
 
   return (

@@ -9,7 +9,7 @@ const Maintainers = () => {
             <div className="flex gap-6 mx-auto mt-10 p-8 flex-wrap justify-center fade-up max-w-4xl">
                 <MaintainerTile img="" name="Emmanuel Tanimowo" github="" linkedin="" />
                 <MaintainerTile img="" name="Tope Akinkuade" github="" linkedin="" />
-                <MaintainerTile img="" name="Oreoluwa Favour" github="" linkedin="" />
+                <MaintainerTile img="" name="Oreoluwa Ojo" github="" linkedin="" />
                 <MaintainerTile img="" name="Joba Onakomaiya" github="" linkedin="" />
                 <MaintainerTile img="" name="Issac Odeh" github="" linkedin="" />
             </div>

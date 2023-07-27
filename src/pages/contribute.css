@@ -1,9 +1,10 @@
 .main{
     background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
-    height: 100vh;
+    height: 100%
 }
-.body{
+#body{
     color: white;
+    margin-top: -2rem;
   }
   .heading{
      margin-top: 10rem;
@@ -65,8 +66,7 @@
     position: relative; 
     opacity: 1; 
   }
-  
-  
+
   
   
   

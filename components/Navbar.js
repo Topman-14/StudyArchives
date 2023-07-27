@@ -31,7 +31,7 @@ export default function Navbar() {
             <li><Link className= {isLinkActive('/contribute') ? styles.activeLink : styles.navlinks} href="/contribute">Contribute</Link></li>
             <li><Link className={styles.navlinks} href="https://github.com/Topman-14/studyArchives">Github</Link></li>
         </ul>
-        <MenuRoundedIcon onClick={openMenu} className='block sm:hidden cursor-pointer' />
+        <MenuRoundedIcon onClick={openMenu} className='sm:hidden cursor-pointer' />
         {menuIsClicked && <MobileMenu handleClick={closeMenu}/>}
     </div>
   )

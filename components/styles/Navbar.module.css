@@ -16,8 +16,11 @@
     gap: 2rem;
     justify-content: space-between;
 }
-
 .menuIcon{
-    color: rgb(255, 230, 0);
-    display: none !important;
+    cursor: pointer;
+}
+@media (min-width:640px) {
+    .menuIcon{
+        display: none !important;
+    }
 }

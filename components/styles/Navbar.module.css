@@ -17,7 +17,7 @@
     justify-content: space-between;
 }
 
-.menuicon{
+.menuIcon{
+    color: green;
     display: none;
-    cursor: pointer;
 }

@@ -33,7 +33,7 @@
   background: rgb(0, 72, 131);
 }
 .more-info-section{
-  min-width: 350px;
+  min-width: 200px;
   max-width: 400px;
   object-fit: contain;
 }

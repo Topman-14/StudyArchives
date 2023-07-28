@@ -18,6 +18,6 @@
 }
 
 .menuIcon{
-    color: green;
-    display: none;
+    color: rgb(255, 230, 0);
+    display: none !important;
 }

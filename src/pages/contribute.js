@@ -16,7 +16,7 @@ const Contribute = () => {
                     {/* body px-10 sm:pt-20 pt-32  flex flex-col justify-between gap-4 h-2/5 w-4/5 */}
                 
                     <p className="max-w-xl mx-auto text-center sm:text-4xl text-2xl leading-snug fade-up">How Would You like to contribute to the drive?</p>
-                    <div id="heroBtns" className='fade flex justify-center gap-7 mt-2'>
+                    <div id="heroBtns" className='fade flex justify-center gap-7 mt-2 flex-wrap'>
                         <LargeBtn href="mailto:ojoore35@gmail.com" text="Gmail" icon="gmail"/>
                         <LargeBtn href="https://wa.me/+2348081405577" text="WhatsApp" icon="whatsapp"/>
                     </div>

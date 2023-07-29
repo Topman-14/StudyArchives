@@ -9,7 +9,7 @@ export default function LargeBtn(props) {
 
   return (
     <Link href={props.href} className={styles.btn} target="_blank">
-        {(props.icon == "gmail")? <EmailOutlinedIcon /> : <WhatsAppIcon />}
+        {props.icon && ((props.icon == "gmail")? <EmailOutlinedIcon /> : <WhatsAppIcon />)}
         <button className='sm:pr-1 pl-1'>{props.text}</button>
         <ArrowForwardIcon />
     </Link>

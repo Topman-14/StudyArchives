@@ -51,8 +51,8 @@ export default function Home() {
           <p className='max-w-xl mx-auto text-center sm:text-4xl text-2xl leading-snug fade-up'>{heroText}</p>
           <p className='text-sm text-center fade pb-4 sm:mt-14 mt-5'>Choose a faculty</p>
           <div id="heroBtns" className='fade flex justify-center gap-7 '>
-          <LargeBtn href="https://drive.google.com/drive/folders/1CnuD0Of_iiJRiyP5vM798kKhCM3yuNpm" text="FBMAS" />
-          <LargeBtn href="https://drive.google.com/drive/folders/1CnuD0Of_iiJRiyP5vM798kKhCM3yuNpm" text="FAMSS" />
+          <LargeBtn href="https://drive.google.com/drive/folders/16prr0Jt3vQnk-zDEaoSbZlvPIF6PL2m4" text="FBMAS" />
+          <LargeBtn href="https://drive.google.com/drive/folders/1kKWZ-tDAEXJl06XEicATYprJdHtZ57np" text="FAMSS" />
           </div>
           <button className='mt-auto py-2 lg:self-end noSelect' onClick={scrollDown} >Learn More <KeyboardDoubleArrowDownIcon className='animate-bounce'/></button>
         </div>

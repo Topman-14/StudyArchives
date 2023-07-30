@@ -10,7 +10,7 @@ const Contribute = () => {
              <div className="flex md:flex-row sm:flex-col w-5/5 sm:justify-between items-center sm:mt-16 flex-col mb-0">
                 <div className="flex md:flex-col justify-between items-center mt-16 ml-16 md:w-2/5 sm:flex-row mr-16 flex-col">
                     <img src="./images/students.png" className="sm:w-5/5 rounded-lg fade-up"/>
-                    <p className="mt-1.5 fade-up">If you have access to any relevant past test or exam question, and would like to add it to the drive, kindly forward a copy of it in either Pdf or Picture(png/jpg) format to the email or whatsapp number using the belo links.</p>
+                    <p className="mt-1.5 fade-up">If you have access to any relevant past test or exam question, and would like to add it to the drive, kindly forward a copy of it in either Pdf or Picture(png/jpg) format to the email or whatsapp number using the below links.</p>
                 </div>
                 <div className="px-10 sm:pt-20 pt-32 flex flex-col gap-4 h-3/4 mb-32 mt-0" id="body">
                 

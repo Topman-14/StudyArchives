@@ -6,6 +6,7 @@
     padding:  1rem 1.5rem;
     transition: 0.2s;
     border: 1px solid white;
+    min-width: fit-content;
 }
 .btn:hover{
     background: #123;

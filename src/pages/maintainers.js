@@ -11,7 +11,7 @@ const Maintainers = () => {
                 <MaintainerTile img="https://pbs.twimg.com/profile_images/1683872791924285440/cyZgvDES_400x400.jpg" name="Tope Akinkuade" github="https://github.com/Topman-14" linkedin="https://www.linkedin.com/in/tope-akinkuade/" />
                 <MaintainerTile img="https://media.licdn.com/dms/image/C4E03AQEp4bbQhTw7ng/profile-displayphoto-shrink_200_200/0/1648838979255?e=1695859200&v=beta&t=GKMJzL_pjknX3fyLsIZXJVKiHjTKn6FPQHyzSalPocM" name="Oreoluwa Ojo" github="https://github.com/Lloyd-the-god" linkedin="https://www.linkedin.com/in/favour-ojo-426795233/" />
                 <MaintainerTile img="" name="Joba Onakomaiya" github="https://github.com/JobaOnaks" linkedin="" />
-                <MaintainerTile img="" name="Issac Odeh" github="" linkedin="" ig="" />
+                <MaintainerTile img="" name="Isaac Odeh" github="" linkedin="" ig="https://instagram.com/videopro__?igshid=MmU2YjMzNjRlOQ==" />
             </div>
         </div>
      );

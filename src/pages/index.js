@@ -3,6 +3,7 @@ import Navbar from '../../components/Navbar'
 import LargeBtn from '../../components/LargeBtn'
 import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrowDown';
 import Link from 'next/link';
+import Head from 'next/head';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
 export default function Home() {
@@ -36,20 +37,19 @@ export default function Home() {
     };
   }, []);
 
-  // const heroTexts =["The Comprehensive Resource Center for Past Exam Questions and Preparation Materials", "The Crazy Resource Center for Past Exam Questions and Preparation Materials", "The Madd Resource Center for Past Exam Questions and Preparation Materials"]
-
-  
-  // for(let text in heroText){
-  //   setTimeout(setHeroText(heroTexts[text]), 3000)
-  // }
-
   return (
     <main className="">
+      <Head>
+        <meta property="og:title" content="StudyArchives - Relevant past questions for better exam preparation" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="/images/studyarchives.png" />
+        <meta property="og:url" content="study-archives.vercel.app/" />
+      </Head>
       <div id='hero_section'>
         <Navbar />
         <div className='px-10 sm:pt-20 pt-32  flex flex-col gap-4 h-3/4'> 
           <p className='max-w-xl mx-auto text-center sm:text-4xl text-2xl leading-snug fade-up'>{heroText}</p>
-          <p className='text-sm text-center fade pb-4 sm:mt-14 mt-5'>Choose a faculty</p>
+          <p className='text-sm text-center fade pb-4 sm:mt-14 mt-5'>Choose a Faculty</p>
           <div id="heroBtns" className='fade flex justify-center gap-7 '>
           <LargeBtn href="https://drive.google.com/drive/folders/16prr0Jt3vQnk-zDEaoSbZlvPIF6PL2m4" text="FBMAS" />
           <LargeBtn href="https://drive.google.com/drive/folders/1kKWZ-tDAEXJl06XEicATYprJdHtZ57np" text="FAMSS" />

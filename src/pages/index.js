@@ -43,7 +43,7 @@ export default function Home() {
         <meta property="og:image" content="https://study-archives.vercel.app/images/studyarchives.png" />
         <meta property="og:title" content="StudyArchives - Relevant past questions for better exam preparation" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="study-archives.vercel.app/" />
+        <meta property="og:url" content="https://study-archives.vercel.app/" />
       </Head>
       <div id='hero_section'>
         <Navbar />

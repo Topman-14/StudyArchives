@@ -20,7 +20,7 @@ export default function (props) {
             <li><Link className= {isLinkActive('/') ? navstyle.activeLink : navstyle.navlinks} href="/">Home</Link></li>
             <li><Link className= {isLinkActive('/maintainers') ? navstyle.activeLink : navstyle.navlinks} href="/maintainers">Maintainers</Link></li>
             <li><Link className= {isLinkActive('/contribute') ? navstyle.activeLink : navstyle.navlinks} href="/contribute">Contribute</Link></li>
-            <li><Link className={navstyle.navlinks} href="https://github.com/Topman-14/studyArchives">Github</Link></li>
+            <li><Link className={navstyle.navlinks} href="https://github.com/Topman-14/studyArchives">GitHub</Link></li>
         </ul>
     </div>
   )

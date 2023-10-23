@@ -49,7 +49,7 @@ export default function Home() {
         <Navbar />
         <div className='px-10 sm:pt-20 pt-32  flex flex-col gap-4 h-3/4'> 
           <p className='max-w-xl mx-auto text-center sm:text-4xl text-2xl leading-snug fade-up'>{heroText}</p>
-          <p className='text-sm text-center fade pb-4 sm:mt-14 mt-5'>Choose a Faculty</p>
+          <p className='text-sm text-center fade pb-4 sm:mt-14 mt-5'>Choose your Faculty</p>
           <div id="heroBtns" className='fade flex justify-center gap-7 '>
           <LargeBtn href="https://drive.google.com/drive/folders/16prr0Jt3vQnk-zDEaoSbZlvPIF6PL2m4" text="FBMAS" />
           <LargeBtn href="https://drive.google.com/drive/folders/1kKWZ-tDAEXJl06XEicATYprJdHtZ57np" text="FAMSS" />
@@ -60,7 +60,7 @@ export default function Home() {
       <div ref={moreInfo} className='text-center p-8 more_info flex flex-col justify-center content-evenly'>
         <div className={`flex flex-wrap gap-10 justify-between p-8 sm:text-base text-sm content-center h-5/6 fade-in-section ${isVisible ? 'is-visible' : ''}`} ref={domRef}>
           <div className='more-info-section my-auto lg:text-left mx-auto'>
-            Welcome to Study Archives - your ultimate source for examination past questions and study materials! <Link href="./maintainers" className='gen-link'>We</Link> understand the challenges university students face in finding extensive preparation resources. Our mission is to provide easy access to an ever-expanding collection of exam past questions for the Faculty of Basic Medical and Applied Sciences, as well as the Faculty of Administrative and Managerial Social Sciences.
+            Welcome to StudyArchives - your ultimate source for examination past questions and study materials! <Link href="./maintainers" className='gen-link'>We</Link> understand the challenges university students face in finding extensive preparation resources. Our mission is to provide easy access to an ever-expanding collection of exam past questions for the Faculty of Basic Medical and Applied Sciences, as well as the Faculty of Arts and Management Social Sciences.
           </div>
           <img src="/images/more_info_pic2.png" className='more-info-section lg:h-full mx-auto h-1/2' />
         </div>
